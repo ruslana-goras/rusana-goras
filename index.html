@@ -15,6 +15,22 @@
         body {
             background-color: yellow;
         }
+        /* Class Selector */
+        .nav-bar {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        /* Descendant Selector */
+        .content p {
+            font-size: 18px;
+        }
+
+        /* Child Selector */
+        .footer > p {
+            font-style: italic;
+            color: gray;
     </style>
 </head>
 <body>
@@ -49,6 +65,23 @@
 
     <!-- Using span for inline styling -->
     <p>This is a <span style="color: green;">green</span> word in the paragraph.</p>
+    <!-- Using iframe to embed external content -->
+    <iframe src="https://www.example.com" width="600" height="400" frameborder="0" allowfullscreen></iframe>
+
+    <!-- Using div to group content -->
+    <div class="nav-bar">
+        <p>This is the navigation bar.</p>
+    </div>
+
+    <!-- Using div to group content -->
+    <div class="content">
+        <p>This is the main content of the page.</p>
+    </div>
+
+    <!-- Using div to group content -->
+    <div class="footer">
+        <p>&copy; 2023 MBKetamine. All rights reserved.</p>
+    </div>
 
     <table>
         <tr>
