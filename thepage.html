@@ -1,82 +1,267 @@
-<!DOCTYPE html>
+      <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-}
-
-section {
-    margin: 2rem;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #333;
-    color: #fff;
-}
-
-        </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Your Name - Portfolio</title>
+    <title>MBKetamine</title>
+    <style>
+        h1 {
+            color: red;
+        }
+        .eooo {
+            color: blue;
+            text-align: center;
+        }
+        body {
+            background-color: yellow;
+        }
+
+        /* Class Selector */
+        .nav-bar {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        /* Descendant Selector */
+        .content p {
+            font-size: 18px;
+        }
+
+        /* Child Selector */
+        .footer > p {
+            font-style: italic;
+            color: gray;
+        }
+
+        /* Pseudo-classes */
+        a:hover {
+            color: green;
+            text-decoration: underline;
+        }
+
+        li:nth-child(even) {
+            background-color: lightgray;
+        }
+
+        input:focus {
+            border: 2px solid blue;
+        }
+
+        /* Pseudo-elements */
+        p::first-line {
+            font-weight: bold;
+        }
+
+        p::first-letter {
+            font-size: 1.5em;
+            color: purple;
+        }
+
+        /* Additional */
+        .portfolio-link {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        /* Visibility, Opacity, Display */
+        .hidden-element {
+            visibility: hidden;
+        }
+
+        .semi-transparent {
+            opacity: 0.5;
+        }
+
+        .invisible-element {
+            display: none;
+        }
+        <!-- Added styles for padding and margin to .nav-bar, .content, and .footer -->
+
+    /* ... (previous styles) ... */
+
+    /* Class Selector */
+    .nav-bar {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        margin-bottom: 10px; /* Added margin */
+    }
+
+    /* Descendant Selector */
+    .content p {
+        font-size: 18px;
+        margin: 0; /* Remove default margin */
+        padding: 10px; /* Add padding */
+    }
+
+    /* Child Selector */
+    .footer > p {
+        font-style: italic;
+        color: gray;
+        margin-top: 10px; /* Added margin */
+    }
+/* CSS Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Apply animation to the header */
+h1 {
+    color: red;
+    animation: fadeIn 2s ease-in-out;
+}
+
+    /* ... (remaining styles) ... */
+
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Your Name</h1>
-        <p>Computer Science Enthusiast</p>
-    </header>
+    <h1>i like racoons</h1>
+    <h6>rararararra</h6>
+    <h2 class="eooo">lets goooooooooooooooooo</h2>
+    <p class="eooo">i love doing this</p>
+    <p>helppppppppppppp</p>
+    <i>aplllllllljjj</i>
+    <p class="hidden-element"><b>Hidden Element</b></p>
+    <p class="semi-transparent"><b>Semi-Transparent Element</b></p>
+    <p class="invisible-element"><b>Invisible Element</b></p>
+    <ul>
+        <li>Itm 1</li>
+        <li>Itemuhbud2</li>
+        <li>gdfgdfgdfgdf 3</li>
+    </ul>
+    <a href="thepage.html">about page or something i dont know</a>
+    <ol>
+        <li>gfdfgdgdfgfdg Item 1</li>
+        <li>eryer Item 2</li>
+        <li>Numberrhdfed Item 3</li>
+    </ol>
+    <img src="https://media.tenor.com/L2yGz-RI-KYAAAAd/the-voices-meme.gif" height="400px" width="400px" alt="micccc">
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Add a concise and engaging description about yourself.</p>
-    </section>
+    <!-- Using iframe to embed external content -->
+    <iframe src="https://images.app.goo.gl/1gE9BMG1PEMhcHu66" width="600" height="400" frameborder="0" allowfullscreen></iframe>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Web Development</li>
-            <li>Programming Languages (e.g., HTML, CSS, JavaScript)</li>
-            <li>Problem Solving</li>
-            <!-- Add more skills as needed -->
-        </ul>
-    </section>
+    <!-- Using div to group content -->
+    <div>
+        <p>BBBBBBBBBBBBBBBBbbbbbbbbbbbbb.</p>
+        <span>Ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</span>
+    </div>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <!-- Include information about your projects, with images and descriptions -->
-    </section>
+    <!-- Using span for inline styling -->
+    <p>This is a <span style="color: green;">green</span> word in the paragraph.</p>
 
-    <section id="education">
-        <h2>Education</h2>
-        <p>Your degree, university, graduation year, etc.</p>
-    </section>
+    <!-- Using iframe to embed external content -->
+    <iframe src="https://www.example.com" width="600" height="400" frameborder="0" allowfullscreen></iframe>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: your@email.com</p>
-        <!-- Add more contact information as needed -->
-    </section>
+    <!-- Using div to group content -->
+    <div class="nav-bar">
+        <p>Navigation bar.</p>
+    </div>
 
-    <footer>
-        <p>&copy; 2023 Your Name</p>
+    <!-- Using div to group content -->
+    <div class="content">
+        <p>This is the main content of the page.</p>
+    </div>
+
+    <!-- Using div to group content -->
+    <div class="footer">
+        <p>&copy; 2023 wooooooooooooooooooooooooow.</p>
+    </div>
+
+    <!-- Using div to group content -->
+    <div class="footer">
+        <p>&copy; 2023woooooooooooooooooooooooooooow.</p>
+    </div>
+
+    <!-- Using iframe to embed external content -->
+    <iframe src="https://www.example.com" width="600" height="400" frameborder="0" allowfullscreen></iframe>
+
+    <!-- Using div to group content -->
+    <div>
+        <p> container.</p>
+        <span>This is a HOHOHOHOHO.</span>
+    </div>
+
+    <!-- Using span for inline styling -->
+    <p>This is a <span style="color: green;">green</span> word in the paragraph.</p>
+
+    <!-- Using iframe to embed external content -->
+    <iframe src="https://www.example.com" width="600" height="400" frameborder="0" allowfullscreen></iframe>
+
+    <!-- Using div to group content -->
+    <div class="nav-bar">
+        <p>navigation bar.</p>
+    </div>
+
+    <!-- Using div to group content -->
+    <div class="content">
+        <p>weeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeep.</p>
+    </div>
+
+    <!-- Using div to group content -->
+    <div class="footer">
+        <p>&copy; 2023 waaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaw</p>
+    </div>
+
+    <table>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+        </tr>
+        <tr>
+            <td>i hate making tables, Cell 1</td>
+            <td>Row 1, Cell 2</td>
+        </tr>
+        <tr>
+            <td>Row 2, Cell 1</td>
+            <td>Row 2, Cell 1</td>
+            <td>Row 2, Cell 2</td>
+        </tr>
+        <tr>
+            <td colspan="2">bonus challenge</td>
+        </tr>
+        <tr>
+            <td colspan="2">heya</td>
+        </tr>
+    </table>
+     <!-- Pseudo-classes and Pseudo-elements -->
+    <div class="portfolio-link">
+        <a href="https://www.behance.net/search/projects?tracking_source=typeahead_search_direct&field=web+design&search=portfolio+design" target="_blank">
+            Check Behance for Design Ideas
+        </a>
+    </div>
+    <!-- Added filter property to make the image grayscale -->
+<img src="https://media.tenor.com/L2yGz-RI-KYAAAAd/the-voices-meme.gif" height="400px" width="400px" alt="micccc" style="filter: grayscale(50%);">
+
+<!-- Added Grid and Flexbox examples with styles -->
+<!-- Grid -->
+<div class="grid-container">
+    <div style="background-color: lightblue; padding: 10px; text-align: center;">Grid Item 1</div>
+    <div style="background-color: lightgreen; padding: 10px; text-align: center;">Grid Item 2</div>
+    <div style="background-color: lightcoral; padding: 10px; text-align: center;">Grid Item 3</div>
+    <div style="background-color: lightgoldenrodyellow; padding: 10px; text-align: center;">Grid Item 4</div>
+    <div style="background-color: lightsalmon; padding: 10px; text-align: center;">Grid Item 5</div>
+    <div style="background-color: lightcyan; padding: 10px; text-align: center;">Grid Item 6</div>
+</div>
+
+<!-- Flexbox -->
+<div class="flex-container">
+    <!-- ... (existing content) ... -->
+</div>
+    <!-- Tailwind CSS Link -->
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<!-- Bootstrap CSS Link -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</body>
+</html>
     </footer>
 </body>
 </html>
